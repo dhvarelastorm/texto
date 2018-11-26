@@ -1,0 +1,56 @@
+{
+  "version": "1.0",
+  "items": {
+    "duration":{
+      "editable": true,
+      "label": "duration",
+      "mandatory": true,
+      "type": "clockpicker",
+      "validation": "Selecciona la duración del módulo",
+      "defaultValue": "60000"
+    },
+    "color": {
+      "label": "color",
+      "mandatory": true,
+      "type": "colorpicker",
+      "defaultValue": "#000000",
+      "editable": true,
+      "linkedToDefault": true,
+      "validation": "El color tiene que ser hexadecimal"
+    },
+    "size": {
+      "label": "size",
+      "mandatory": true,
+      "type": "numerical",
+      "defaultValue": 12,
+      "editable": true,
+      "linkedToDefault": true,
+      "validation": "El tamaño tiene que ser un número entre 8 y 138"
+    },
+    "fontFamily": {
+      "label": "fontFamily",
+      "mandatory": true,
+      "type": "closedList",
+      "values": [
+        "Arial",
+        "Comic Sans",
+        "Helvetica",
+        "Times New Roman"
+      ],
+      "defaultValue": "Arial",
+      "editable": true,
+      "linkedToDefault": true,
+      "validation": "Tiene que ser seleccionada una de las opciones de la lista"
+    },
+    "text": {
+      "label": "text",
+      "mandatory": true,
+      "type": "text",
+      "defaultValue": "Put here your slogan",
+      "editable": true,
+      "linkedToDefault": true,
+      "validation": "El texto introducido tendrá como mínimo 30 caracteres y como máximo 255"
+    }
+  }
+}
+
