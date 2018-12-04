@@ -1,2 +1,2 @@
 alert('main');
-alert('version 7.1');
+alert('version 7.2');
