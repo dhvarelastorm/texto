@@ -1,6 +1,6 @@
 {
   "label": "textoSimple",
-  "version": "4.0",
+  "version": "5.0",
   "items": {
     "duration":{
       "editable": true,
